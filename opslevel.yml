@@ -1,0 +1,52 @@
+---
+version: 1
+component:
+  name: BookMe
+  type: service
+  lifecycle: available
+  tier: tier_3
+  product:
+  owner: sec_pe_team_roses
+  system:
+  language: TypeScript
+  framework: Express and React
+  description: Property booking application with a React client, TypeScript Express API, MongoDB persistence, user authentication, reservations, wishlists, and reviews
+  aliases:
+    - book-me
+  tags:
+    - booking
+    - mongodb
+    - react
+    - typescript
+  repositories:
+    - name: hyacinth-bruno/book-me
+      path: "/"
+      provider: github
+  tools:
+  dependencies:
+  alert_sources:
+  properties:
+    authentication:
+      - Password login
+      - Google OAuth
+      - JWT
+    authorization:
+      - Application-level checks
+    cache:
+      - None
+    data_classification:
+      - User and booking data
+    database:
+      - MongoDB
+    hosting:
+      - None configured
+    messaging:
+      - None
+    ownership_confidence: Medium
+    public_endpoint:
+    service_configuration:
+      - Environment variables
+    static_content_hosting:
+      - Create React App
+    storage:
+      - MongoDB
